@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Nahuel Chirico Mizrahi - Portfolio</title>
+</head>
+<body>
+    <nav>
+        <div class="container">
+           
+            <div class="menu-toggle" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul id="navMenu">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-mi">Sobre Mí</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="hero" id="inicio">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Nahuel Chirico Mizrahi</h1>
+                <p class="subtitle">Estudiante de Secundario</p>
+                <p>Hola! Soy estudiante del Instituto ORT. Desde chico, siempre me gustó cómo las cosas que usamos a diario se pueden transformar y mejorar en función de su estética y funcionalidad. Mi enfoque es encontrar un equilibrio entre la estética y la utilidad, siempre buscando soluciones innovadoras y pensadas para el usuario.</p>
+                <a href="#proyectos" class="cta-button">Ver Proyectos</a>
+            </div>
+            <div class="hero-image">
+                <img src="images/perfil.jpg" alt="Nahuel Chirico Mizrahi" class="profile-img">
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="sobre-mi">
+        <div class="container">
+            <h2 class="section-title">Sobre Mí</h2>
+            <div class="about-content">
+                <div class="about-info">
+                    <h3>¿Quién soy?</h3>
+                    <p><strong>Nombre:</strong> Nahuel Chirico Mizrahi</p>
+                    <p><strong>Ubicación:</strong> Buenos Aires, Argentina</p>
+                    <p><strong>Educación:</strong> Estudiante de Secundario - Instituto ORT</p>
+                    <p><strong>Próximo paso:</strong> Diseño industrial</p>
+                </div>
+                <div>
+                    <p style="font-size: 1.1rem; margin-bottom: 1rem;">
+                        Mi pasión por la tecnología y el diseño comenzó desde muy joven. Me encanta explorar cómo podemos hacer que la tecnología sea más accesible y útil para las personas.
+                    </p>
+                    <p style="font-size: 1.1rem; margin-bottom: 1rem;">
+                        Actualmente me estoy preparando para estudiar Diseño industrial, donde espero poder combinar mi creatividad con habilidades técnicas para crear soluciones innovadoras.
+                    </p>
+                    <p style="font-size: 1.1rem;">
+                        En mi tiempo libre disfruto aprendiendo nuevas tecnologías, trabajando en proyectos personales y explorando las últimas tendencias en diseño y desarrollo.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="proyectos">
+        <div class="container">
+            <h2 class="section-title">Mis Proyectos</h2>
+            <div class="projects-grid" id="projectsContainer">
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contacto">
+        <div class="container">
+            <h2 class="section-title">Contacto</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3 style="margin-bottom: 2rem;">¡Hablemos!</h3>
+                    <div class="contact-item">
+                        <div class="contact-icon">@</div>
+                        <div>
+                            <strong>Email</strong><br>
+                            <a href="48241168@est.ort.edu.ar" style="color: var(--secondary-color);">48241168@est.ort.edu.ar</a>
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+    </section>
+
+    
+    <script src="main.js"></script>
+</body>
+</html>
